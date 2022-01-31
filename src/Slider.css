@@ -1,0 +1,64 @@
+
+.slick-slider {
+    
+    align-items: center;
+    margin-bottom:300px;
+    
+    line-height: 100px;
+    height: 600px;
+    
+    position: relative;
+   
+    
+}
+
+
+.slick-slider img {
+
+  height: 650px;
+  object-fit: contain;
+  
+}
+
+
+.slick-slider img:hover {
+  transform: scale( 1.2, 1.2 );
+}
+
+
+
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 70px;
+    line-height: 1;
+
+    opacity: 0.75;
+    color: #754306;
+    
+   
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.slick-prev {
+  z-index: 999;
+  margin-left: 100px;
+}
+
+.slick-next {
+  margin-right: 150px;
+  
+}
+
+
+
+
+.slick-dots li.slick-active button:before {
+color:#754306;
+}

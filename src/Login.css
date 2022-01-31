@@ -1,0 +1,153 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
+  padding-bottom: 200px;;
+  background-color: #f0b942;
+}
+
+.login_home {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  object-fit: contain;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.login_container {
+  width: 600px;
+  height: 700px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 3px solid rgb(211, 211, 211);
+  padding: 30px;
+
+}
+
+
+.login_container > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 100px;
+
+}
+
+
+
+.login_container > form > h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+
+}
+
+
+
+.login_container > form > input {
+
+  height:30px;
+  width: 400px;
+  margin-bottom:30px;
+ border: none;
+ border-bottom: solid 3px;
+ background:transparent;
+
+}
+
+
+
+
+
+
+.login_signInButton {
+  background: none;
+  border-radius: 10px;
+  width: 50%;
+  height: 40px;
+  border: 3px solid;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer
+  
+
+}
+
+.login_signInButton:hover {
+  color: #ffffff;
+}
+
+
+.login_register_button {
+ font-size:20px;
+  background: none;
+  border-radius: 10px;
+  width: 295px;
+  height: 35px;
+  border: 3px solid #000000;
+  margin-top: 30px;
+  color: #000000;
+  font-weight: bold;
+  margin-left:150px;
+}
+
+
+
+.login_register_button:hover {
+  color:#ffffff;
+  border-color: #ffffff;
+
+}
+
+ .login_form > h6 {
+   margin-top: 50px;
+   font-size: 20px;
+   border-bottom: 2px solid ;
+
+ }
+
+
+
+.login_bt {
+  display: flex;
+  margin-top: 35px;
+  margin-left: 230px;
+ 
+}
+
+.login_naver {
+ 
+  width:50px;
+  height:50px;
+
+  margin-right: 40px;
+}
+
+.login_naver:hover {
+  transform: scale( 1.5, 1.5 );
+}
+
+
+
+
+ .login_google{
+   padding-top:5px;
+   width: 50px;
+   height:50px;
+   background-color: #ffffff;
+   margin-left:10px;
+
+   border-color: #ffffff;
+   font-size: 35px;
+   cursor: pointer;
+
+      
+    }
+.login_google:hover {
+  transform: scale( 1.5, 1.5 );
+}

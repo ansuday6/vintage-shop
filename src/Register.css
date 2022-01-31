@@ -1,0 +1,197 @@
+.register_container {
+  display: flex;
+  margin-top: 80px;
+  height: 400px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.register_container > img {
+ margin-left:90px;
+
+}
+
+.register_logo {
+ font-size: 50px;
+ margin-left:100px;
+}
+
+.register_logo:hover {
+  color:#f79b51;
+}
+
+.register_logoHome {
+  width: 200px;
+  font-size: 50px;
+
+
+}
+
+
+
+
+.register_text {
+  color: #f79b51;
+  font-size: 100px;
+ margin-left: 80px;
+
+}
+
+.text_icon {
+  color:rgb(109, 71, 216);
+}
+
+
+.register_content {
+  display: flex;
+  height:800px;
+  margin-bottom:200px;
+  z-index:-1;
+  
+
+}
+
+
+.register_content > form {
+  
+  flex-direction: column;
+  align-content: center;
+  height:400px;
+  height: fit-content;
+  margin-top: 200px;
+  margin-left: 300px;
+  
+}
+
+
+.register_content > form > input {
+  height:30px;
+  width: 400px;
+  margin-bottom:30px;
+ border-left-width:0;
+ border-right-width:0;
+ border-top-width:0;
+ border-bottom-width:1;
+ 
+
+
+}
+
+input:focus{
+  outline: none;
+}
+
+
+.register_content > form > h3 {
+  font-size: 27px;
+}
+
+.register_content > form > h5 {
+  font-size: 27px;
+}
+
+.register_content h3,h5{
+  margin-bottom:30px;
+  text-align: left;
+
+}
+
+.login_Button{
+  height: 60px;
+  width: 100%;
+  margin-top:130px;
+  margin-left: 230px;
+ 
+} 
+
+
+
+.login_Button  button {
+  font-size: 20px;
+  height:50px;
+  width: 125px;
+  border:none;
+  background-color: #b1d1e6;
+  cursor: pointer;
+  
+}
+
+.login_Button button:hover {
+  background-color: #96c1e9;
+  
+}
+
+.login_registerButton {
+  margin-left: 270px;
+  margin-top:30px;
+  background-color: #ffffff;
+  border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1;
+ 
+  
+}
+
+.login_registerButton:hover{
+ color: #f79b51;
+ 
+ 
+
+}
+
+
+.register_border {
+  margin-left:195px;
+  align-items:center;
+  width:1500px;
+  border-bottom: 3px solid rgb(141, 104, 241);
+}
+
+
+input[type="checkbox"] {
+  width:20px;
+  height:17px;
+ 
+}
+.register_check {
+  
+  width: 600px;
+  margin: 200px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+
+.register_checkbox {
+  margin-bottom: 30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.register_agree {
+  font-size:20x;
+  margin-bottom: 30px;
+  
+  
+}
+
+.register_agree {
+  margin-top:20px;
+}
+
+.register_detail {
+  font-size: 15px;
+  text-align: left;
+  margin-bottom:10px;
+  color:#666d74;
+}
+
+.register_agree2 {
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-size:20px;
+  font-weight: 2px bold;
+
+}
+

@@ -1,0 +1,171 @@
+
+.basket {
+  margin: 0 150px 150px 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: auto;
+  border: 3px solid;
+  padding-bottom:300px;
+  background-color: #eaf4fd;
+
+}
+
+.basket_title{
+  margin-top:100x;
+  margin-bottom:200px;
+  font-size: 30px;;
+  position: relative;
+  background-color: #dff0ff;
+
+}
+
+
+
+
+.basket_return {
+  width:200px;
+  text-align: left;
+  align-items: center;
+  margin-left: 50px;
+  margin-top:60px;
+  font-size: 40px;
+  color:#000000;
+  
+
+ 
+}
+
+.basket_return:hover {
+ 
+
+  color: #f79b51;
+
+}
+
+
+.basket {
+  width:1000px;
+  margin-left:400px;
+}
+
+
+.basket_in {
+  flex-direction: column;
+  margin: 100px;
+ 
+
+
+}
+
+.basket_name {
+  margin-top:100px;
+  height: 50px;
+  width:150px;
+  margin-left: 400px;
+
+  border-left: 3px solid ;
+  border-right: 3px solid ;
+  border-top: 3px solid ;
+  font-size: 20px;
+  padding-top:10px;
+  font-weight: bold;
+  background-color: #c0def7;
+
+}
+.basketProduct{
+  display:flex;
+  margin-bottom: 150px;
+  border-bottom: 3px solid;
+
+
+}
+.basketProduct_image {
+  width: 200px;
+  
+}
+
+.basketProduct_info {
+  width:300px;
+  margin-left: 30px;
+  margin-top:55px;
+  text-align: left;
+ 
+ 
+}
+
+
+.basketProductDel {
+  width:200px;
+  margin-left: 30px;
+
+
+  align-items: center;
+  
+}
+
+
+.basketProductDel button {
+  cursor: pointer;
+  border-radius: 3px solid;
+  height:50px;
+  margin-top:100px;
+  border:none;
+  background-color: #c0def7;
+  font-weight: bold;
+  
+
+  
+
+}
+
+.basketProductDel button:hover {
+  background-color: #96c1e9;
+  transform: scale(1.2,1.);
+
+
+}
+
+
+
+
+
+
+.subtotal {
+  margin-top: auto;
+  
+  height:300px;
+  width: 300px;
+  margin-left: 60px;
+  background-color: #c0def7;
+ 
+ 
+ }
+
+
+ .subtotal_price {
+  font-size: 20px;
+  
+  
+ }
+ 
+ 
+ 
+
+ 
+ .subtotal > button {
+   background-color: #f7b764;
+   border:none;
+   width: 100%;
+   height: 45px;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 200px;
+   cursor: pointer;
+
+ 
+ }
+
+ .subtotal > button:hover {
+   color: red;
+ }

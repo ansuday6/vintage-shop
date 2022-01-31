@@ -1,0 +1,75 @@
+.payment{
+ margin:150px;
+  
+  
+}
+
+
+
+
+.payment_section{
+ 
+  
+}
+
+
+
+.payment_title{
+  margin-bottom: 20px;
+}
+.payment_title >h3 {
+  font-size: 30px;
+  
+}
+
+.payment_info >form{
+  flex-direction: column;
+  
+
+}
+
+
+.payment_container > form > h6 {
+ 
+  font-size: 50px;
+
+}
+
+.payment_info{
+  margin-top:20px;
+  background-color: #eaf4fd;
+  height:300px;
+  text-align: left;
+  padding: 200px;
+}
+
+
+.payment_info > input {
+  height:30px;
+  width: 400px;
+  margin-bottom:30px;
+ border: none;
+ border-bottom: solid 3px;
+ background:transparent;
+ 
+
+
+}
+
+
+.payment_bt{
+  width: 700px;
+  height:60px;
+  margin-left:580px;
+  border:none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f7b764;
+  cursor: pointer;
+  
+}
+
+.payment_bt:hover{
+  color:red;
+
+}
